@@ -12,52 +12,54 @@ console.log(10 < 150)
 /////////////////
 
 console.log("1 is greater than or equal to 0") 
-// my guess:
+// my guess: true
 // write the javascript code below 
-
+console.log(1 >= 0);
 
 console.log("7 is greater than 15")
-// my guess:
+// my guess: false
 // write the javascript code below
-
+console.log(7 > 15);
 
 // This works with strings too!
 
 console.log('The string "apple" is equal "apple"')
-// my guess:
+// my guess: true
 // write the javascript code below
-
+console.log("apple" == "apple");
 
 console.log('The string "apple" is equal "orange"')
-// my guess:
+// my guess: false
 // write the javascript code below
-
+console.log("apple" == "orange");
 
 console.log('The string "apple" is not equal to "apple"')
-// my guess:
+// my guess: false
 // write the javascript code below
-
+console.log("apple" != "apple");
 
 console.log('The string "apple" is not equal to "orange""')
-// my guess:
+// my guess: true
 // write the javascript code below
-
+console.log("apple" != "orange");
 
 // This works with variables too!
 var myFavoriteColor = "blue"
 
 console.log('The variable myFavoriteColor is equal to the string "blue"')
-// my guess:
+// my guess: true
 // write the javascript code below
+console.log(myFavoriteColor == "blue");
 
 console.log('The variable myFavoriteColor is not equal to the string "red"')
-// my guess:
+// my guess: true
 // write the javascript code below
+console.log(myFavoriteColor != "red");
 
 console.log('The variable myFavoriteColor is equal to the string "purple"')
-// my guess:
+// my guess: false
 // write the javascript code below
-
+console.log(myFavoriteColor == "purple");
 
 
 // These variables are all booleans 
@@ -71,19 +73,19 @@ var likesCats = true;
 
 // Predict if the combination will be true, then code it out to see if you're right.
 console.log("I like computers and I like sports")
-// my guess: 
+// my guess: true
 // write the javascript code below
-
+console.log(likesComputers && likesSports == true);
 
 // We can see whether one of two booleans is true using || (OR)
 console.log("I like sports and I like knitting")
-// my guess: 
+// my guess: false
 // write the javascript code below
-
+console.log(likesSports && likesKnitting == true);
 
 console.log("I like knitting or I like dogs")
-// my guess: 
+// my guess: false
 // write the javascript code below
-
+console.log(likesKnitting || likesDogs == true);
 
 });
